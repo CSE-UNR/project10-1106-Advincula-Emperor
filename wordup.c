@@ -150,14 +150,11 @@ for(a = 0; a <= r; a++){
 	for (c = 0; c <= 5; c++){
 		for (d = 0; d < 5; d++){
 		if ( word[a][c] == ans[d] && word[a][c] != ans[d] - 32  && word[a][c] > 90 ){
-		printf("^");
+		printf(" ^");
 		} else {
-		h++;
 		
-		if (h > 1){
-		h = 0;
 		printf(" ");
-		}}
+		}
 		}
 		}
 		
